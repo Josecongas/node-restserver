@@ -12,8 +12,11 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
 app.use(bodyParser.json());
 
-// CRUD de Usuario
-app.use(require('./rutas/usuario'));
+
+//////////// RUTAS /////////////
+app.use(require('./rutas/index'));
+////////////////////////////////
+
 
 
 mongoose.connect(
