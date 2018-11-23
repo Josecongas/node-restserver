@@ -7,6 +7,12 @@ const app = express();
 // Usuario
 app.use(require('./usuario'));
 
+// Categoria
+app.use(require('./categoria'));
+
+// Producto
+app.use(require('./producto'));
+
 // Login
 app.use(require('./login'));
 
