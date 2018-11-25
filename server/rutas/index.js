@@ -16,4 +16,10 @@ app.use(require('./producto'));
 // Login
 app.use(require('./login'));
 
+// Uploads
+app.use(require('./upload'));
+
+// Imagenes
+app.use(require('./imagenes'));
+
 module.exports = app;
